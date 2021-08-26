@@ -1,0 +1,345 @@
+/* css part */
+
+.header{
+    background: #000000;
+     padding: 6px 0;
+    
+}
+.logo img{
+    width: 100px;
+}
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0;
+   text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;   
+}
+.primary-menu ul li a {
+    display: block;
+	color: white;
+	display: block;
+	padding: 0 15px;
+	line-height: 63px;
+    display: block;
+    
+}
+.primary-menu ul li a:hover{
+    text-decoration: 2px underline;
+}
+
+/* drop downmenu part */
+.primary-menu ul li{
+    position: relative;
+    
+}
+.primary-menu ul li .al{
+    position: absolute;
+    top:110%;
+    left:0;
+    width:200px;
+    background-color:black;
+    text-align: left;
+    padding: 0;
+    border-top: 5px solid white;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: .5s;
+    transform-origin: top center;
+
+}
+.primary-menu ul li:hover .al{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.primary-menu ul li .al li {
+	display: block;
+	padding-left: 0;
+	margin-left: 0;
+}
+.primary-menu ul li .al li .b{
+    display: block;
+    height:50px;
+    line-height:50px;
+}
+
+.primary-menu ul li .al li a:hover{
+    background-color: #fff;
+    color: black;
+    transition: .5s;
+    
+    
+}
+/* banner part */
+.banner{
+    background: url(./img/a0c6042d4612d7adf44692fffac7e082.jpg) no-repeat center;
+    background-size: cover;
+    padding: 180px;
+}
+.banner-heading{}
+.banner-heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.banner-heading p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.banner-heading .al {
+    display: inline-block;
+	color: white;
+	text-decoration: none;
+	background: black;
+	padding: 10px 26px;
+	border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.banner-heading .al:hover{
+    color: black;
+    background-color: #fff;
+    transition: .5s;
+    
+}
+.banner-heading .ala{
+    color: black;
+	text-decoration: none;
+	background: white;
+	padding: 12px 26px;
+	border-radius: 10px;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: .5s;
+}
+.banner-heading .ala:hover{
+ color: white;
+ background: black;
+}
+/* about part */
+.about{
+    background:#87A471;
+    text-align: center;
+    padding: 50px;
+}
+.about h1{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    color: white;
+    
+}
+img{
+    max-width: 100%;
+}
+.contant p{
+    margin-top: 80px;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ji-img img{
+    height:300px;
+}
+
+/* about bottoom part */
+.about-bottom{
+    background: #606A64;
+    padding: 50px;
+}
+.about-contant{}
+.about-contant h1{
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px white;
+}
+.about-contant h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-contant p{
+    width: 700px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* about itam part */
+
+.about-itam{
+    padding-top:100px ;
+}
+.about-itam img{
+    width:80px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.about-itam h3{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #47627F;
+}
+.about-itam p{
+    margin-right:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9EACBA;
+}
+
+/* product part */
+.product{
+    background:#87A471;
+    padding: 60px;
+}
+.product-heding h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    
+}
+.product-heding p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* product itam part */
+.product-itam{
+    margin-top: 50px;
+    border: 2px solid #ddd;
+    padding-bottom:20px;
+     
+}
+.product-itam .am{
+    min-width: 100%;
+    height: 300px;
+}
+.product-itam img{
+    height: 300px;
+    min-width: 100%;
+
+}
+.product-itam p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#526C84 ;
+}
+.product-itam a{
+    color: white;
+    text-decoration: 
+    none;
+    
+}
+.img{
+    margin-top: 70px;
+
+}
+.img img{
+    max-width: 100%;
+}
+
+/* container part */
+.contants{
+    background:#5B9776;
+    text-align: center;
+}
+.contants h2{
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.contants h2::after {
+	content: "";
+	position: absolute;
+	width: 324px;
+	height: 3px;
+	background: #ddd;
+	bottom: -9px;
+	left: 0;
+	display: inline-block;
+	margin-left: calc(47% - 135px);
+}
+
+
+/* footer part */
+.footer{
+    margin-top: 50px;
+}
+/* footer menu */
+.footer-menu{
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+.footer-menu ul{
+    list-style: none;
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    text-align: center;
+}
+.footer-menu ul li a{
+    display: block;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    transition: .4s;
+}
+.footer-menu ul li a:hover{
+    color: yellow;
+}
+
+/* footer text part */
+.footer-text{
+    background: #606A64;
+    text-align: center;
+    padding: 100px 0;
+}
+.footer-text h2{
+    color: #DBDEE0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.footer-text p{
+    color: #DBDBDB;
+    width:670px;
+    margin:auto;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-text a{
+    color: #DBDBDB;
+    text-decoration: none;
+    background: #00BC9C;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .5s;
+}
+.footer-text a:hover{
+    background: #477488;
+}
+/* footer-bootom part */
+.footer-bottom{
+    background: #000000;
+    
+}
+.footer-bottom p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.brd{
+    border-radius: 15px;
+}
